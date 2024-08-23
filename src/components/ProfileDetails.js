@@ -8,7 +8,7 @@ const ProfileDetail = () => {
   const [profile, setProfile] = useState(null);
 
   useEffect(() => {
-    axios.get(`http://localhost:5000/profiles/${id}`)
+    axios.get(`https://profile-mapper-server-2.onrender.com/profiles/${id}`)
       .then(response => setProfile(response.data))
       .catch(error => console.error('Error fetching profile:', error));
   }, [id]);
