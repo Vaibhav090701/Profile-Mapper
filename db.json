@@ -1,0 +1,24 @@
+{
+  "profiles": [
+    {
+      "id": "45f5",
+      "name": "Vaibhav",
+      "photoUrl": "https://pics.craiyon.com/2023-07-15/dc2ec5a571974417a5551420a4fb0587.webp",
+      "address": "Karve nager, pune",
+      "latitude": 18.51957,
+      "longitude": 73.85535,
+      "contact":123456895,
+      "interest":"Cricket"
+    },
+    {
+      "id": "e6f1",
+      "name": "Mit ",
+      "photoUrl": "https://pics.craiyon.com/2023-11-26/oMNPpACzTtO5OVERUZwh3Q.webp",
+      "address": "MIT kothrud",
+      "latitude": 18.5159578,
+      "longitude": 73.8158623,
+      "contact":123456895,
+      "interest":"Football"
+    }
+  ]
+}
