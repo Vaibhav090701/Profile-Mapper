@@ -55,7 +55,7 @@ function AdminPanel() {
   };
 
   const handleAddProfile = () => {
-    axios.post('http://localhost:5000/profiles', newProfile)
+    axios.post('https://profile-mapper-server-2.onrender.com/profiles', newProfile)
       .then(response => {
         setProfiles(prevProfiles => [...prevProfiles, response.data]);
         setNewProfile({
@@ -76,7 +76,7 @@ function AdminPanel() {
   };
 
   const handleDeleteProfile = (id) => {
-    axios.delete(`http://localhost:5000/profiles/${id}`)
+    axios.delete(`https://profile-mapper-server-2.onrender.com/profiles/${id}`)
       .then(() => {
         setProfiles(prevProfiles => prevProfiles.filter(profile => profile.id !== id));
       })

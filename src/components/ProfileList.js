@@ -32,7 +32,7 @@ const ProfileList = () => {
     const navigate = useNavigate();
 
     useEffect(() => {
-        axios.get('http://localhost:5000/profiles')
+        axios.get('https://profile-mapper-server-2.onrender.com/profiles')
             .then(response => {
                 const profileData = response.data;
                 setProfiles(profileData);
