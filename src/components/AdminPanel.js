@@ -18,7 +18,7 @@ function AdminPanel() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/profiles')
+    axios.get('https://profile-mapper-server-2.onrender.com/profiles')
       .then(response => setProfiles(response.data))
       .catch(error => console.error('Error fetching profiles:', error));
   }, []);
